@@ -1,6 +1,5 @@
 .env
 .vscode/
-target/
 *.class
 .git
 .gitignore
