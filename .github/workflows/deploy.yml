@@ -35,6 +35,6 @@ jobs:
         uses: docker/build-push-action@v5
         with:
           context: .
-          file: ./Dockerfile.render
+          file: ./dockerfile.render
           push: true
           tags: ${{ secrets.DOCKER_USERNAME }}/backend:latest
